@@ -3,8 +3,8 @@ package com.eazybytes.controller;
 import com.eazybytes.model.Contact;
 import com.eazybytes.repository.ContactRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -18,7 +18,7 @@ public class ContactController {
     private ContactRepository contactRepository;
 
     @PostMapping("/contact")
-    public Contact saveContactInquiryDetails(@RequestParam Contact contact){
+    public Contact saveContactInquiryDetails(@RequestBody Contact contact){
         /**
          * 자동으로 만들어주는 설정을 해주지 않았기 때문에 임의로 집어넣어주는 것.
          * */
