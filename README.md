@@ -58,7 +58,43 @@
     <li>
         <h3>Custom AuthenticationProvider</h3>
         <p>
-
+            AuthenticationProvider를 implement하여 직접 custom 할 수 있다.
+        </p>
+    </li>
+</ul>
+<h2>Section6</h2>
+<h3>Cors와 CSRF</h3>
+<ul>
+    <li>
+        <h3>Cors ( cross-origin-resource-sharing )Issue</h3>
+        <p>백엔드 어플리케이션이 실행되고 있는 포트번호나 도메인과 다른 주소에서 요청이 왔을 때 거부하는 정책</p>
+        <p>CorsConfiguration을 불러와서 직접 요청을 허용하고 싶은 메소드, url등을 설정할 수 있음. </p>
+    </li>
+    <li>
+        <h3>CSRF Issue</h3>
+        <p>
+            CSRF는 공격방식의 일부로 클라이언트가 보관하고 있는 쿠키를 가져와서 클라이언트의 정보를 유출하는 것.
+        </p>
+        <p>
+            csrf토큰을 발행하여 이를 통한 통신으로 해당 공격방식을 보완할 수 있음.
+        </p>
+    </li>
+</ul>
+<h2>Section7</h2>
+<h3>Cors와 CSRF</h3>
+<ul>
+    <li>
+        <h3>Cors ( cross-origin-resource-sharing )Issue</h3>
+        <p>백엔드 어플리케이션이 실행되고 있는 포트번호나 도메인과 다른 주소에서 요청이 왔을 때 거부하는 정책</p>
+        <p>CorsConfiguration을 불러와서 직접 요청을 허용하고 싶은 메소드, url등을 설정할 수 있음. </p>
+    </li>
+    <li>
+        <h3>CSRF Issue</h3>
+        <p>
+            CSRF는 공격방식의 일부로 클라이언트가 보관하고 있는 쿠키를 가져와서 클라이언트의 정보를 유출하는 것.
+        </p>
+        <p>
+            csrf토큰을 발행하여 이를 통한 통신으로 해당 공격방식을 보완할 수 있음.
         </p>
     </li>
 </ul>
